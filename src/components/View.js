@@ -26,7 +26,7 @@ class View extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:5000/view')
+        axios.get('https://express-server-demo1o1.herokuapp.com/view')
             .then(response => {
                 this.setState({ views: response.data })
             })
@@ -36,7 +36,7 @@ class View extends React.Component {
     }
 
     deleteExercise(id) {
-        axios.delete('http://localhost:5000/delete/'+id)
+        axios.delete('https://express-server-demo1o1.herokuapp.com/delete/'+id)
           .then(response => { console.log(response.data)});
     
         this.setState({

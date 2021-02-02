@@ -48,7 +48,7 @@ class Formate extends React.Component {
             title: this.state.title,
             summary: this.state.summary
         }
-        axios.post('http://localhost:5000/submit', user)
+        axios.post('https://express-server-demo1o1.herokuapp.com/submit', user)
             .then(res => console.log(res.data))
 
         this.setState({
