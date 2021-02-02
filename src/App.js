@@ -10,7 +10,7 @@ class App extends React.Component {
       <Router>
       <div>
         <Route path='/' exact component={View}></Route>
-        <Route path='https://happy-morse-436987.netlify.app/submit' exact component={Formate}></Route>
+        <Route path='/submit' exact component={Formate}></Route>
       </div>
       </Router>
     )
