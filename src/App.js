@@ -9,7 +9,7 @@ class App extends React.Component {
     return(
       <Router>
       <div>
-        <Route path='/view' exact component={View}></Route>
+        <Route path='/' exact component={View}></Route>
         <Route path='/submit' component={Formate}></Route>
       </div>
       </Router>
