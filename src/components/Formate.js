@@ -58,12 +58,12 @@ class Formate extends React.Component {
         })
 
         if (user === null) {
-            window.location = '/';
+            window.location = '/view';
         }
     }
 
     viewHandeler = () => {
-        window.location = '/'
+        window.location = '/view'
     }
 
     render() {
