@@ -94,7 +94,7 @@ export default class Login extends Component {
                 {' '}
                 Login    {' '}
               </button>{' '}
-                  <Link to="/register">
+                  <Link to="/Registration">
                   Register </Link>  {' '}
                {' '}
             </div>{' '}

@@ -162,7 +162,7 @@ export default class Registration extends Component {
                 {' '}Register{' '}
               </button>
               {' '}
-              <Link to="/login"> Cancel </Link>
+              <Link to="/"> Cancel </Link>
               {' '}
             </div>{' '}
           </div>{' '}
