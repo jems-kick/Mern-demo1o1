@@ -62,7 +62,6 @@ class View extends React.Component {
                 <table className="table">
                     <thead className="thead-light">
                         <tr>
-                            <th>Sr no.</th>
                             <th>UserName</th>
                             <th>Title</th>
                             <th>Summary</th>
