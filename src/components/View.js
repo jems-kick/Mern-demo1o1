@@ -5,7 +5,6 @@ import axios from 'axios';
 const Exercise = (props) => (
     <tr>
         <td>{props.view.name}</td>
-        <td>{props.view.name}</td>
         <td>{props.view.title}</td>
         <td>{props.view.summary}</td>
         <td>
